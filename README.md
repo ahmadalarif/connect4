@@ -22,3 +22,15 @@ Unsolved problems:
 Winner notifecation:
 The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs,
 the owner will be alerted that he or she owns the game.
+
+
+
+
+
+
+
+
+
+
+
+The connect4 game link https://ahmadalarif.github.io/connect4/
