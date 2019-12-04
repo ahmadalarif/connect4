@@ -26,6 +26,7 @@ turn--;
 
 }
 counter1--;
+console.log(counter1)
 checkWin();
 
 } );
@@ -48,6 +49,7 @@ $("#c"+counter2).addClass('player2');
 turn--;
     }
 counter2--;
+console.log(counter2)
 checkWin();
 });
 //when the column3 is clicked will check if the turn 0 will change the color of spans and decrease the counter to fill from bottom to top then give the turn to p1
@@ -68,6 +70,7 @@ else if (turn == 1){
     turn--;
 }
 counter3--;
+console.log(counter3)
 checkWin();
 }) 
 
@@ -87,6 +90,7 @@ $(".column4").click(function(){
       turn--;
   }
   counter4--;
+  console.log(counter4)
   checkWin();
 })
 
@@ -200,6 +204,12 @@ location.reload();
 location.reload();
 
 }
+if((counter1==-1)&&(counter2==4)&&(counter3==8)&&(counter4==12)){
+  alert("Tie");
+  location.reload();  
+ 
+}
+
 }
 
 
@@ -210,6 +220,6 @@ $(".btn").click(function(){
 
 
 });
-// if (turn == 0){
+
 
   
