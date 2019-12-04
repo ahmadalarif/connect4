@@ -1,0 +1,45 @@
+body { 
+    background-color: whitesmoke;
+
+}
+
+.board {
+    display: flex;
+    height: 70%;
+    width: 70%;
+    border:  3px solid black;
+    margin-left: 15%;
+    background-color: blue;
+
+}
+
+.board > div {
+    
+    height: 90%;
+    width: 25%;
+    margin: 15px;
+
+}
+
+.hole {
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 100%; 
+    display:flex;
+    margin: 10px;
+  }
+
+  .playerOne {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%; color: rgb(245,245,11);
+    display: flex; 
+
+  }
+  .playerTwo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%; color: rgb(236, 11, 11);
+    display: flex; 
+  }
