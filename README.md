@@ -32,3 +32,4 @@ Winner notifecation:
 
 
 The connect4 game link https://ahmadalarif.github.io/connect4/
+The project wireframe link https://balsamiq.cloud/schhuwm/p6o4fbf
