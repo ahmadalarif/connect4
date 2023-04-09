@@ -1,15 +1,15 @@
-body { 
-    background-color: whitesmoke;
-
+/* .winBoard { 
+  
+background-color:gray;
 }
 
 .board {
     display: flex;
     height: 70%;
     width: 70%;
-    border:  3px solid black;
+    border:  3px ;
     margin-left: 15%;
-    background-color: blue;
+    background-color: rgba(10, 0, 255, 0.541);
 
 }
 
@@ -24,10 +24,11 @@ body {
 .hole {
     height: 100px;
     width: 100px;
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.438);
     border-radius: 100%; 
     display:flex;
-    margin: 10px;
+    margin: 15px;
+    margin-right: 3px;
   }
 
   .playerOne {
@@ -42,4 +43,296 @@ body {
     width: 100px;
     border-radius: 100%; color: rgb(236, 11, 11);
     display: flex; 
+  } */
+
+
+/* .container *{
+background-color: aqua;
+
+
+} */
+
+/* .container{
+
+    /*border-radius: ;*/
+
+
+
+/* .content1 {
+    margin: auto;
+    width: 420px;
+    height: 400px;
+    border: 3px solid #111111;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#63949b ;
+    flex-wrap: wrap;
+ /*    vertical-align: middle; */
+    /* justify-content: flex-start;
+     align-items: stretch;
+
+  } */ 
+  /* .all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+
+
+
+    
+     
+
+
+
+/* .content1 {
+  margin: 10px; 
+  width: 420px;
+  height: 400px;    
+  background-color: rgb(38, 121, 206);
+  border: hotpink solid 2px;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: row;
+  
+} */
+
+/* control each circle in the */
+/* #Modifybourd{
+    height: 50px;
+} */
+/* .box1 {
+    
+  width: 90%;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 1% ;
+  margin: 2% ;
+   flex-direction:row;
+
+   
+
+} */
+
+/*#test_id_10,#test_id_11{*/
+/* #firstColumn,#secondColumn ,#thirdColumn ,#lastColumn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+     
+     
+
+} */
+
+/* .red{
+  background-color: red;
+
+} */
+/* .yellow{
+  background-color: yellow;
+
+} */
+/* button {
+   background-color:  rgba(9, 75, 138, 0.87);
+   height: 30px ;
+   width: 800px;
+   margin-left: 5px;
+   color: white;
+   font-size: 20px;
+   margin-top: 2px;
+} */
+/* body {
+  background-color: rgb(200, 218, 218);
+  margin: 0;
+  width: 100%;
+  min-width: 100%;
+  color:white;
+  
+  
+
+} */
+
+/* header{
+   background-color: rgb(66, 66, 66);
+   margin: auto;
+   padding-top: 1px;
+   padding-left: 20px;
+   border-bottom: red solid 2px;
+ } */
+/* footer{
+  background-color: rgb(66, 66, 66);
+  padding-bottom: 30px;
+  border-top: red solid 2px;
+  clear: both;
+  position: relative;
+   height: 60px;
+  margin-top: 70px;
+  text-align: center  ;
+} */
+
+
+
+/* .container {  
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
+}
+
+
+
+.container {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+} */
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1vw;
+  text-align: center;
+  background-color: antiquewhite;
+   background-image: url("stars-gf29d4e4c2_1280.jpg");
+}
+
+h1,p{
+  font-size: 2vw;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  text-decoration: dashed;
+  background-color: lightblue;
+  color: brown
+
+
+}
+.header {
+ background-color: rgb(66, 66, 66) opacity 0.5;
+   margin: auto;
+   padding-top: 1px;
+   padding-left: 1px;
+   padding-right: 1px;
+   border-bottom: red solid 2px;
+    opacity: 0.8;
+}
+
+.click_button {
+				height: 42px;
+				width: 42px;
+				border-radius: 24px;
+				background-color: rgba(255,0,0,1);
+				cursor: pointer;
+			}
+			
+			/* Make each piece square - 32x32, set the border-radius to 16px (so that it appears round) and center it using margin-left
+			and margin-right: auto */
+			.piece {
+				height: 42px;
+				width: 42px;
+				display:block;
+				border-radius: 50%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			/* Player 0 (no player) will have a light-grey background */
+			.player0 {
+				background-color: white; /* hex colors were used, but rgb/rgba could be used as well */
+			}
+			
+			/* player 1 will have a red background */
+			.player1 {
+				background-color: #FF0000;
+        font-family: 'Courier New', Courier, monospace;
+        
+			}
+			
+			/* player 2 will have a blue background */
+			.player2 {
+				background-color: #fbff00;	
+        font-family: 'Courier New', Courier, monospace;
+			}
+			
+			/* set the board square to having a dark-grey border, and to be 36x36 square */
+			.board_square {
+				border: 3px dotted blueviolet;
+				height: 56px;
+				width: 56px;
+			}
+      #game_table{
+        background-color: rgb(0, 89, 255);
+        margin: auto;
+        border-radius: 2% ;
+         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+         width: 90%;
+         position: relative;
+
+      }
+      /* #begin_game{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 100%;
+         background-color: rgb(0, 89, 255);
+      } */
+      
+
+      #gameboard{
+         display: flex;
+         /* height: 35%; */
+         width: 90%;
+         border:  3px ;
+         margin :auto;
+        flex-wrap: wrap;
+
+      }
+      #game_info{
+        padding:  1%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       
+      }
+      td {
+    text-align: center;
+}
+      .btn {
+        border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+      }
+      .active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+     
+
+      blink {
+       animation: 2s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
   }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+  
+}
+@media screen and (max-width:90%) {
+  #game_table,#game_info,#gameboar {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  #game_table,#game_info,#gameboar {
+    width: 100%;
+  }
+}

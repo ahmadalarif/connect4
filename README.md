@@ -12,7 +12,6 @@ Game Features:
 • It will automatically throw an alert when a player wins, and it will tell you which player (Red or yellow) won the game.
 • The game can be reset by using the reset button. This will clear the board, and maintain the order of players.
 • If the game is won by either player, then the reset button becomes a New Game button.
-• The game is responsive and will shrink to fit tablet and cell phone.
 
 Unsolved problems:
 • There is a problem in the stopping the counter after fulfilling the board, for saving the time i will solve it later on.
@@ -33,3 +32,4 @@ Winner notifecation:
 
 
 The connect4 game link https://ahmadalarif.github.io/connect4/
+The project wireframe link https://balsamiq.cloud/schhuwm/p6o4fbf
